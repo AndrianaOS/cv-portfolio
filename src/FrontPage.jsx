@@ -1,5 +1,4 @@
 import LinkButtons from "./LinkButtons";
-// import { Link } from "react-router-dom";
 
 function FrontPage() {
   return (
@@ -13,25 +12,19 @@ function FrontPage() {
         <h2 className="intro">Hello, My Name is Andriana Saffo</h2>
         <p>Full time mum, Coding enthusiast</p>
         <aside className="btn-info">
-          <LinkButtons name="About me" />
-          <LinkButtons name="Technical Projects" />
-          <LinkButtons name="Skills" />
-          <LinkButtons name="Employment" />
-        </aside>
-        {/* <aside className="btn-info">
-          <Link to="/about">
+          <a href="/about">
             <LinkButtons name="About me" />
-          </Link>
-          <Link to="/projects">
+          </a>
+          <a href="/projects">
             <LinkButtons name="Technical Projects" />
-          </Link>
-          <Link to="/skills">
+          </a>
+          <a href="/skills">
             <LinkButtons name="Skills" />
-          </Link>
-          <Link to="/employment">
+          </a>
+          <a href="/jobs">
             <LinkButtons name="Employment" />
-          </Link>
-        </aside> */}
+          </a>
+        </aside>
       </section>
     </div>
   );

@@ -125,6 +125,55 @@
   border: 2px solid #46b2ea;
 }
 
+/* ABOUT STYLES */
+.info {
+  background: #fad9d9;
+  padding: 1.5em;
+  text-align: left;
+}
+
+/* SKILLS STYLES */
+
+.tech {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+  justify-items: center;
+}
+
+.client-side {
+  background: #d2cde8;
+  width: 11em;
+}
+
+.tools {
+  background: #b0aad2;
+  width: 11em;
+}
+
+.personal {
+  margin-top: 4em;
+}
+
+.attributes {
+  background: #fad9d9;
+  padding: 1em;
+}
+
+/* .personal h2 {
+  margin-bottom: 0;
+} */
+
+.client-side ul,
+.tools ul,
+.attributes ul {
+  padding: 0;
+}
+
+.skills-list {
+  list-style-type: none;
+  margin-bottom: 0.5em;
+}
+
 /* FOOTER STYLE */
 
 .social {

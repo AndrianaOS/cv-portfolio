@@ -1,3 +1,5 @@
+// import { Link } from "react-router-dom";
+
 function NavBar(props) {
   return (
     <nav showMenu={props.showMenu} className="nav-menu">
@@ -10,7 +12,10 @@ function NavBar(props) {
         />
       </section>
       <section className="menu-items">
-        <a href="/home" className="list-item">
+        {/* <Link to="/" className="list-item">
+          Home
+        </Link> */}
+        <a href="/" className="list-item">
           Home
         </a>
       </section>
