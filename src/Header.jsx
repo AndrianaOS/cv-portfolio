@@ -24,8 +24,20 @@ function Header() {
               onClick={toggleMenu}
             />
             <section className="large-menu-items">
-              <a href="/home" className="list-item">
+              <a href="/" className="list-links">
                 Home
+              </a>
+              <a href="/about" className="list-links">
+                About Me
+              </a>
+              <a href="/projects" className="list-links">
+                Projects
+              </a>
+              <a href="/skills" className="list-links">
+                Skills
+              </a>
+              <a href="/jobs" className="list-links">
+                Employment
               </a>
             </section>
           </aside>

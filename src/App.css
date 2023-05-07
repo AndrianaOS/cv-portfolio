@@ -35,6 +35,37 @@
   cursor: pointer;
 }
 
+@media screen and (min-width: 775px) {
+  .large-name-role {
+    display: flex;
+  }
+
+  .large-menu-items {
+    display: flex;
+    flex-direction: row;
+    width: 20em;
+    justify-content: space-between;
+  }
+
+  .name-role,
+  .menu-btn {
+    display: none;
+  }
+
+  .header-menu {
+    font-size: 1.2em;
+  }
+
+  .list-links {
+    text-decoration: none;
+    color: black;
+  }
+
+  .list-links:hover {
+    font-weight: bold;
+  }
+}
+
 /* NAVBAR STYLE */
 
 .close-btn {
@@ -55,16 +86,22 @@
   padding: 0.7em;
   font-size: 1.3em;
   cursor: pointer;
+  margin-bottom: 1em;
 }
 
 .list-item:hover {
   font-weight: bold;
   color: #46b2ea;
   text-transform: uppercase;
+  border-bottom: 3px #46b2ea dashed;
 }
 
 .menu-items {
-  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 10em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav-menu {
@@ -75,6 +112,10 @@
   height: 100%;
   top: 0.7em;
   z-index: 2;
+}
+
+.animate__animated.animate__bounceInDown {
+  --animate-duration: 1s;
 }
 
 /* FRONT PAGE STYLES */
@@ -125,6 +166,37 @@
   border: 2px solid #46b2ea;
 }
 
+@media screen and (min-width: 775px) {
+  /* .profile {
+    margin-top: 5em;
+  } */
+
+  .profile-area {
+    position: static;
+    display: grid;
+    grid-template-columns: 22em 26em;
+    justify-items: center;
+    height: 25em;
+    padding: 0;
+  }
+
+  .profile-pic {
+    width: 20em;
+    margin-top: 2em;
+    position: static;
+  }
+
+  .profile-info {
+    margin-top: 2em;
+  }
+
+  .intro,
+  .profile-area p {
+    position: static;
+    margin-bottom: 1em;
+  }
+}
+
 /* ABOUT STYLES */
 .info {
   background: #fad9d9;
@@ -156,7 +228,7 @@
 
 .attributes {
   background: #fad9d9;
-  padding: 1em;
+  padding: 2em;
 }
 
 /* .personal h2 {
@@ -174,6 +246,78 @@
   margin-bottom: 0.5em;
 }
 
+.skills-item {
+  text-align: left;
+}
+
+/* JOB STYLES */
+
+.cards {
+  /* display: flex;
+  flex-direction: column; */
+  display: grid;
+}
+
+.employ {
+  padding: 1em;
+  height: 15em;
+}
+
+.date-company {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.role {
+  margin-top: 0;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+#one,
+#three,
+#five {
+  background: #fad9d9;
+}
+
+#two,
+#four {
+  background: #b0aad2;
+}
+
+.volunteering {
+  margin-top: 5em;
+}
+
+.volunteer {
+  padding: 1em;
+  height: 10em;
+}
+
+/* PROJECTS STYLES */
+
+.pics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+}
+
+.project-picture {
+  width: 15em;
+  margin-top: 1em;
+}
+
+.project-info {
+  font-size: 1.1em;
+  padding: 1em;
+}
+
+.pic-card {
+  border: 2px solid black;
+  margin: 0.5em;
+}
+
 /* FOOTER STYLE */
 
 .social {
@@ -184,4 +328,10 @@
 .footer {
   margin: 6em;
   padding: 1em;
+}
+
+@media screen and (min-width: 775px) {
+  .footer {
+    margin: 1em;
+  }
 }
