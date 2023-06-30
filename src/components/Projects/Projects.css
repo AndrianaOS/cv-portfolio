@@ -1,0 +1,19 @@
+.pics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+}
+
+.project-picture {
+  width: 15em;
+  margin-top: 1em;
+}
+
+.project-info {
+  font-size: 1.1em;
+  padding: 1em;
+}
+
+.pic-card {
+  border: 2px solid black;
+  margin: 0.5em;
+}
