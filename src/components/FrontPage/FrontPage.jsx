@@ -1,4 +1,5 @@
-import LinkButtons from "./LinkButtons";
+import "../FrontPage/FrontPage.css";
+import LinkButtons from "../LinkButtons/LinkButtons";
 
 function FrontPage() {
   return (
