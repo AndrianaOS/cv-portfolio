@@ -1,0 +1,43 @@
+.cards {
+  /* display: flex;
+  flex-direction: column; */
+  display: grid;
+}
+
+.employ {
+  padding: 1em;
+  height: 15em;
+}
+
+.date-company {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.role {
+  margin-top: 0;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+#one,
+#three,
+#five {
+  background: #fad9d9;
+}
+
+#two,
+#four {
+  background: #b0aad2;
+}
+
+.volunteering {
+  margin-top: 5em;
+}
+
+.volunteer {
+  padding: 1em;
+  height: 10em;
+}
