@@ -1,3 +1,4 @@
+import "../NavBar/NavBar.css";
 import "animate.css";
 
 function NavBar(props) {
