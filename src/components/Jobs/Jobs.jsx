@@ -1,3 +1,5 @@
+import "../Jobs/Jobs.css";
+
 function Jobs() {
   const jobs = [
     {
