@@ -1,3 +1,5 @@
+import "../Skills/Skills.css";
+
 function Skills() {
   return (
     <div>
