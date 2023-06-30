@@ -1,3 +1,5 @@
+import "../About/About.css";
+
 function About() {
   return (
     <div>
