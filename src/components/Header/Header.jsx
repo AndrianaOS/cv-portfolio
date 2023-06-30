@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import NavBar from "./NavBar";
 
 function Header() {
@@ -24,7 +25,26 @@ function Header() {
               onClick={toggleMenu}
             />
             <section className="large-menu-items">
-              <a href="/" className="list-links">
+              <Link to="/" className="list-links">
+                Home
+              </Link>
+
+              <Link to="/about" className="list-links">
+                About Me
+              </Link>
+
+              <Link to="/projects" className="list-links">
+                Projects
+              </Link>
+
+              <Link to="/skills" className="list-links">
+                Skills
+              </Link>
+
+              <Link to="/jobs" className="list-links">
+                Jobs
+              </Link>
+              {/* <a href="/" className="list-links">
                 Home
               </a>
               <a href="/about" className="list-links">
@@ -38,7 +58,7 @@ function Header() {
               </a>
               <a href="/jobs" className="list-links">
                 Employment
-              </a>
+              </a> */}
             </section>
           </aside>
         )}

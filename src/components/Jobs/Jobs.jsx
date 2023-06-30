@@ -1,30 +1,14 @@
 function Jobs() {
-  //   const jobHistory = [
-  //     {
-  //       company: "CHL Mortgages",
-  //       jobTitle: "Arrears Operations Specialist",
-  //       startDate: "11/2019",
-  //       endDate: "12/2021",
-  //       responsibilities: [
-  //         "Contacting customers by telephone regarding arrears on mortgage accounts and dealing with any queries.",
-  //         "Taking payments for accounts that are in arrears.",
-  //         "Analysis of finances to work out repayment plans.",
-  //       ],
-  //     },
-  //   ];
-
   const jobs = [
     {
       id: "one",
       date: "11/2019 to 12/2021",
       company: "CHL Mortgages",
       role: "Arrears Operations Specialist",
-      duties:
-        // "Contacting customers by telephone regarding arrears on mortgage accounts and dealing with any queries and Taking payments for accounts that are in arrears and analysis of finances to work out repayment plans.",
-        [
-          "Contacting customers by telephone regarding arrears on mortgage accounts and dealing with any queries",
-          "Taking payments for accounts that are in arrears and analysis of finances to work out repayment plans.",
-        ],
+      duties: [
+        "Contacting customers by telephone regarding arrears on mortgage accounts and dealing with any queries",
+        "Taking payments for accounts that are in arrears and analysis of finances to work out repayment plans.",
+      ],
     },
     {
       id: "two",
@@ -101,11 +85,6 @@ function Jobs() {
     },
   ];
 
-  //   jobHistory.map((obj) => {
-  // return
-  // <ul>{obj.responsibilities.map((item) => {
-  // <li>item</li>})}</ul>
-  // })
   return (
     <div>
       <aside>
@@ -119,7 +98,6 @@ function Jobs() {
                 <h4>{job.company}</h4>
               </aside>
               <h5 className="role">{job.role}</h5>
-              {/* <p>{job.duties}</p> */}
               <ul>
                 {job.duties.map((eachDuty, index) => (
                   <li key={index}>{eachDuty}</li>

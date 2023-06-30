@@ -2,17 +2,17 @@ import "./App.css";
 import Header from "./Header";
 import FrontPage from "./FrontPage";
 import Footer from "./Footer";
-import About from "./About";
-import Skills from "./Skills";
-import Jobs from "./Jobs";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import About from "./components/About/About";
+import Skills from "./components/Skills/Skills";
+import Jobs from "./components/Jobs/Jobs";
+import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-
       <BrowserRouter>
+        <Header />
+        {/* <Nav /> */}
         <Routes>
           <Route path="/" element={<FrontPage />} />
           <Route path="/about" element={<About />} />
@@ -25,6 +25,20 @@ function App() {
     </div>
   );
 }
+
+// function Nav() {
+//   <nav>
+//     <Link to="/">Home</Link>
+
+//     <Link to="/about">About Me</Link>
+
+//     <Link to="/projects">Projects</Link>
+
+//     <Link to="/skills">Skills</Link>
+
+//     <Link to="/jobs">Jobs</Link>
+//   </nav>;
+// }
 
 function Projects() {
   return (
@@ -48,14 +62,17 @@ function Projects() {
             <a href="https://andriana-quote-generator.onrender.com">
               Quote Generator
             </a>
-            <span> - Full stack webpage using React and Node.JS</span>
+            <span>
+              - Frontend, backend and database webpage using React, Node.JS and
+              PostgreSQL
+            </span>
           </div>
         </aside>
         <aside className="pic-card">
           <img src="/chat app.png" alt="chat" className="project-picture" />
           <div className="project-info">
             <a href="https://chat-website-oerg.onrender.com">Hub Chat</a>
-            <span> - Full stack webpage using React and Node.JS</span>
+            <span> - Frontend and backend webpage using React and Node.JS</span>
           </div>
         </aside>
         <aside className="pic-card">
@@ -75,7 +92,17 @@ function Projects() {
             <a href="https://cyf-andriana-hotel-react.netlify.app">
               Andriana Hotel
             </a>
-            <span> - Full stack webpage using React and Node.JS</span>
+            <span> - Frontend and backend webpage using React and Node.JS</span>
+          </div>
+        </aside>
+        <aside className="pic-card">
+          <img src="" alt="vlog" className="project-picture" />
+          <div className="project-info">
+            <a href="https://video-blog.onrender.com">Rap N Blues</a>
+            <span>
+              - Frontend, backend and database webpage using React, Node.JS and
+              PostgreSQL
+            </span>
           </div>
         </aside>
       </section>

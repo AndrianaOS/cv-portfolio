@@ -36,10 +36,4 @@ function NavBar(props) {
   );
 }
 
-//  <Route path="/" element={<FrontPage />} />
-//       <Route path="/about" element={<About />} />
-//       <Route path="/projects" element={<Projects />} />
-//       <Route path="/skills" element={<Skills />} />
-//       <Route path="/jobs" element={<Jobs />} />
-
 export default NavBar;
