@@ -1,4 +1,5 @@
-import SocialMedia from "./SocialMedia";
+import "../Footer/Footer.css";
+import SocialMedia from "../SocialMedia/SocialMedia";
 
 function Footer() {
   return (
