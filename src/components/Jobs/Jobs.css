@@ -5,7 +5,8 @@
 }
 
 .employ {
-  padding: 1em;
+  margin: 0 20px 10px;
+  padding: 10px;
   height: 15em;
 }
 
@@ -16,21 +17,29 @@
   gap: 0.5em;
 }
 
+.duties {
+  text-align: start;
+  padding-inline-start: 20px;
+}
+
+.duties li {
+  margin-bottom: 10px;
+}
+
 .role {
   margin-top: 0;
   font-style: italic;
   font-size: 0.9em;
 }
 
-#one,
-#three,
-#five {
-  background: #fad9d9;
+.employ:nth-child(odd),
+.volunteer:nth-child(odd) {
+  border: 3px solid #fad9d9;
 }
 
-#two,
-#four {
-  background: #b0aad2;
+.employ:nth-child(even),
+.volunteer:nth-child(even) {
+  border: 3px solid #b0aad2;
 }
 
 .volunteering {
@@ -38,6 +47,7 @@
 }
 
 .volunteer {
-  padding: 1em;
-  height: 10em;
+  margin: 0 20px 10px;
+  padding: 10px;
+  height: 135px;
 }
