@@ -4,7 +4,6 @@ import "animate.css";
 function NavBar(props) {
   return (
     <nav
-      // .showMenu={props.showMenu}
       className="nav-menu animate__animated
       animate__bounceInDown"
     >

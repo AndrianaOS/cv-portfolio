@@ -1,4 +1,5 @@
 import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./components/Header/Header";
 import FrontPage from "./components/FrontPage/FrontPage";
 import Footer from "./components/Footer/Footer";
@@ -6,7 +7,6 @@ import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
 import Jobs from "./components/Jobs/Jobs";
 import Projects from "./components/Projects/Projects";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
