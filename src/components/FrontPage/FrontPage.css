@@ -26,24 +26,6 @@
   align-items: center;
 }
 
-.link-btn {
-  font-size: 1.1em;
-  padding: 0.5em;
-  margin-bottom: 1em;
-  width: 15em;
-  background: white;
-  border-radius: 0.8em;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.link-btn:hover {
-  font-size: 1.3em;
-  color: #46b2ea;
-  text-transform: uppercase;
-  border: 2px solid #46b2ea;
-}
-
 @media screen and (min-width: 775px) {
   /* .profile {
     margin-top: 5em;
