@@ -5,6 +5,7 @@ import quote from "../Assets/quote-generator.png";
 import hotel from "../Assets/hotel.png";
 import babyNest from "../Assets/baby-nest.png";
 import vlog from "../Assets/vlog.png";
+import clone from "../Assets/clone.png";
 
 const projects = [
   {
@@ -65,6 +66,14 @@ const projects = [
     link: "https://video-blog.onrender.com",
     description:
       "Frontend, backend and database webpage using React, Node.JS and PostgreSQL",
+  },
+  {
+    id: 8,
+    imgSrc: clone,
+    alt: "wix-clone",
+    title: "Resume Clone",
+    link: "https://clone-resume-1c2295.netlify.app/",
+    description: "Frontend webpage using HTML and CSS",
   },
 ];
 
