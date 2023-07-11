@@ -56,3 +56,22 @@
     margin-bottom: 1em;
   }
 }
+
+@media screen and (min-width: 1000px) {
+  .profile-area {
+    grid-template-columns: 0.5fr 1fr;
+  }
+
+  .btn-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+  }
+
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}

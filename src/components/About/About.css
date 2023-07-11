@@ -3,3 +3,23 @@
   padding: 1.5em;
   text-align: left;
 }
+
+.info li {
+  margin-bottom: 15px;
+}
+
+.info li:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 775px) {
+  .info {
+    margin: 0 1em;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .info li {
+    margin-bottom: 30px;
+  }
+}
