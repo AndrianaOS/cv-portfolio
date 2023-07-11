@@ -26,7 +26,7 @@ function Header() {
               onClick={toggleMenu}
             />
             <section className="large-menu-items">
-              <Link to="/components/FrontPage" className="list-links">
+              <Link to="/" className="list-links">
                 Home
               </Link>
 
