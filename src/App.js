@@ -1,9 +1,9 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header/Header";
-import FrontPage from "./components/FrontPage/FrontPage";
-import Footer from "./components/Footer/Footer";
-import About from "./components/About/About";
+import FrontPage from "./components/FrontPage/FrontPage.jsx";
+import Footer from "./components/Footer/Footer.jsx";
+import About from "./components/About/About.jsx";
 import Skills from "./components/Skills/Skills";
 import Jobs from "./components/Jobs/Jobs";
 import Projects from "./components/Projects/Projects";
