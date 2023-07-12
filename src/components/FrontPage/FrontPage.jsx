@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../FrontPage/FrontPage.css";
 import LinkButtons from "../LinkButtons/LinkButtons";
 import profilePic from "../../Assets/profilepic.jpeg";
@@ -11,18 +12,18 @@ function FrontPage() {
           <h2 className="intro">Hello, My Name is Andriana Saffo</h2>
           <p>Full time mum, Coding enthusiast</p>
           <aside className="btn-info">
-            <a href="/about">
+            <Link to="/about">
               <LinkButtons name="About me" />
-            </a>
-            <a href="/projects">
+            </Link>
+            <Link to="/projects">
               <LinkButtons name="Technical Projects" />
-            </a>
-            <a href="/skills">
+            </Link>
+            <Link to="/skills">
               <LinkButtons name="Skills" />
-            </a>
-            <a href="/jobs">
+            </Link>
+            <Link to="/jobs">
               <LinkButtons name="Employment" />
-            </a>
+            </Link>
           </aside>
         </div>
       </section>
