@@ -25,7 +25,7 @@ function FrontPage() {
           <aside className="btn-info">
             {buttonNames.map((eachButton) => {
               return (
-                <Link to={eachButton.linkTo}>
+                <Link to={eachButton.linkTo} key={eachButton.id}>
                   <LinkButtons name={eachButton.name} />
                 </Link>
               );
