@@ -43,7 +43,7 @@ function Header() {
               </Link>
 
               <Link to="/jobs" className="list-links">
-                Jobs
+                Education & Jobs
               </Link>
             </section>
           </aside>
