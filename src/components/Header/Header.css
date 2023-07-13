@@ -27,6 +27,21 @@
 }
 
 @media screen and (min-width: 775px) {
+  .header-menu {
+    font-size: 1.2em;
+  }
+
+  .list-links {
+    text-decoration: none;
+    color: black;
+  }
+
+  .list-links:hover {
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 1000px) {
   .large-name-role {
     display: flex;
   }
@@ -41,18 +56,5 @@
   .name-role,
   .menu-btn {
     display: none;
-  }
-
-  .header-menu {
-    font-size: 1.2em;
-  }
-
-  .list-links {
-    text-decoration: none;
-    color: black;
-  }
-
-  .list-links:hover {
-    font-weight: bold;
   }
 }
