@@ -47,7 +47,8 @@ const projects = [
     alt: "hotel",
     title: "Andriana Hotel",
     link: "https://cyf-andriana-hotel-react.netlify.app",
-    description: "Frontend and backend webpage using React and Node.JS",
+    description:
+      "Frontend and backend webpage using React and Node.JS. Large screen version only",
   },
   {
     id: 6,
