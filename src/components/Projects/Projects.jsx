@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../Projects/Projects.css";
 import projects from "../../Utilities/projectInfo";
 
@@ -22,6 +23,9 @@ function Projects() {
           );
         })}
       </section>
+      <Link to="/" className="list-item">
+        Back
+      </Link>
     </div>
   );
 }
