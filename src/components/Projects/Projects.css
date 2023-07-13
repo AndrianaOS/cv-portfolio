@@ -1,6 +1,9 @@
 .pics {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+  column-gap: 15px;
+  row-gap: 15px;
+  margin: 15px;
 }
 
 .project-picture {
@@ -10,10 +13,9 @@
 
 .project-info {
   font-size: 1.1em;
-  padding: 1em;
+  padding: 1em 0.5em 0;
 }
 
 .pic-card {
   border: 2px solid black;
-  margin: 0.5em;
 }
