@@ -8,6 +8,11 @@
   height: 15em;
 }
 
+.edu {
+  margin: 0 20px 10px;
+  padding: 10px;
+}
+
 .date-company {
   display: flex;
   justify-content: center;
@@ -31,16 +36,19 @@
 }
 
 .employ:nth-child(odd),
-.volunteer:nth-child(odd) {
+.volunteer:nth-child(odd),
+.edu:nth-child(odd) {
   border: 3px solid #fad9d9;
 }
 
 .employ:nth-child(even),
-.volunteer:nth-child(even) {
+.volunteer:nth-child(even),
+.edu:nth-child(even) {
   border: 3px solid #b0aad2;
 }
 
-.volunteering {
+.volunteering,
+.employment {
   margin-top: 5em;
 }
 
@@ -48,4 +56,23 @@
   margin: 0 20px 10px;
   padding: 10px;
   height: 135px;
+}
+
+@media screen and (min-width: 775px) {
+  .employ-cards,
+  .volunteer-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19em, 1fr));
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .employ-cards,
+  .volunteer-cards {
+    grid-template-columns: repeat(auto-fit, minmax(21em, 1fr));
+  }
+
+  .edu-cards {
+    margin: 0 2em;
+  }
 }
