@@ -9,7 +9,7 @@ function Jobs() {
     <div>
       <aside className="education">
         <h2>Education</h2>
-        <div className="cards">
+        <div className=" edu-cards cards">
           {edu.map((stage) => (
             <section key={stage.id} id={stage.id} className="edu">
               <h4>{stage.date}</h4>
@@ -35,7 +35,7 @@ function Jobs() {
       </aside>
       <aside className="employment">
         <h2>Employment</h2>
-        <div className="cards">
+        <div className="employ-cards cards">
           {jobs.map((job) => (
             <section key={job.id} id={job.id} className="employ">
               <aside className="date-company">
@@ -56,7 +56,7 @@ function Jobs() {
 
       <aside className="volunteering">
         <h2>Volunteering</h2>
-        <div className="cards">
+        <div className="volunteer-cards cards">
           {volunteering.map((eachRole) => (
             <section key={eachRole.id} id={eachRole.id} className="volunteer">
               <h4>{eachRole.date}</h4>
