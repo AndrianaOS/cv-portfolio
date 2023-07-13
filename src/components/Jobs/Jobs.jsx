@@ -1,12 +1,40 @@
+import { Link } from "react-router-dom";
 import "../Jobs/Jobs.css";
+import edu from "../../Utilities/edu";
 import jobs from "../../Utilities/jobsInfo";
 import volunteering from "../../Utilities/volunteeringInfo";
 
 function Jobs() {
   return (
     <div>
-      <aside>
-        <h1>Employment</h1>
+      <aside className="education">
+        <h2>Education</h2>
+        <div className="cards">
+          {edu.map((stage) => (
+            <section key={stage.id} id={stage.id} className="edu">
+              <h4>{stage.date}</h4>
+              <h4>{stage.institution}</h4>
+              <h5 className="role">{stage.subject}</h5>
+              {stage.details ? (
+                <ul className="duties">
+                  {stage.details.map((eachDetail, index) => {
+                    return <li key={index}>{eachDetail}</li>;
+                  })}
+                </ul>
+              ) : (
+                <></>
+              )}
+              {/* <ul className="duties">
+                {stage.details.map((eachDetail, index) => {
+                  return <li key={index}>{eachDetail}</li>;
+                })}
+              </ul> */}
+            </section>
+          ))}
+        </div>
+      </aside>
+      <aside className="employment">
+        <h2>Employment</h2>
         <div className="cards">
           {jobs.map((job) => (
             <section key={job.id} id={job.id} className="employ">
@@ -25,8 +53,9 @@ function Jobs() {
           ))}
         </div>
       </aside>
+
       <aside className="volunteering">
-        <h1>Volunteering</h1>
+        <h2>Volunteering</h2>
         <div className="cards">
           {volunteering.map((eachRole) => (
             <section key={eachRole.id} id={eachRole.id} className="volunteer">
@@ -37,6 +66,9 @@ function Jobs() {
           ))}
         </div>
       </aside>
+      <Link to="/" className="list-item">
+        Back
+      </Link>
     </div>
   );
 }
