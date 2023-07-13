@@ -49,12 +49,19 @@
   .large-menu-items {
     display: flex;
     flex-direction: row;
-    width: 20em;
     justify-content: space-between;
   }
 
   .name-role,
   .menu-btn {
     display: none;
+  }
+
+  .list-links {
+    padding-right: 1em;
+  }
+
+  .list-links:nth-last-child(1) {
+    padding-right: 0;
   }
 }
