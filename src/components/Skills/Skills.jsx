@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../Skills/Skills.css";
 
 function Skills() {
@@ -67,6 +68,9 @@ function Skills() {
           </ul>
         </section>
       </div>
+      <Link to="/" className="list-item">
+        Back
+      </Link>
     </div>
   );
 }
