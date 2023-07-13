@@ -47,3 +47,10 @@
 .animate__animated.animate__bounceInDown {
   --animate-duration: 1s;
 }
+
+@media screen and (min-width: 775px) {
+  .nav-menu {
+    width: 50%;
+    margin-left: 50%;
+  }
+}
