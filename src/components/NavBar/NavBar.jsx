@@ -30,7 +30,7 @@ function NavBar(props) {
           Skills
         </Link>
         <Link to="/jobs" className="list-item">
-          Employment
+          Education & Jobs
         </Link>
       </section>
     </nav>

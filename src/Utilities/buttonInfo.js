@@ -17,7 +17,7 @@ const buttonNames = [
   {
     id: 4,
     linkTo: "/jobs",
-    name: "Education & Employment",
+    name: "Education & Jobs",
   },
 ];
 
