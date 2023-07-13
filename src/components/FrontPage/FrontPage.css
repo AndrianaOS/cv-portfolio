@@ -12,11 +12,22 @@
   top: 5em;
 }
 
-.intro,
-.profile-area p {
+.intro {
   margin: 0;
   position: relative;
   bottom: 2em;
+}
+
+.describe {
+  bottom: 1em;
+  margin-left: 1.5em;
+  font-size: 1.3em;
+}
+
+details ul {
+  margin-top: 0;
+  margin-bottom: 2em;
+  text-align: start;
 }
 
 .btn-info {
@@ -27,45 +38,69 @@
 }
 
 @media screen and (min-width: 775px) {
-  /* .profile {
-    margin-top: 5em;
-  } */
+  .profile {
+    margin-top: 4em;
+  }
 
   .profile-area {
     position: static;
     display: grid;
     grid-template-columns: 22em 26em;
     justify-items: center;
-    height: 25em;
     padding: 0;
+    justify-content: center;
+    align-items: center;
   }
 
   .profile-pic {
     width: 20em;
-    margin-top: 2em;
     position: static;
   }
 
   .profile-info {
-    margin-top: 2em;
+    padding: 13px;
   }
 
-  .intro,
-  .profile-area p {
+  .intro {
     position: static;
     margin-bottom: 1em;
+  }
+
+  details ul {
+    display: grid;
+    grid-template-columns: 10em 10em;
+    row-gap: 5px;
+    column-gap: 5px;
+    text-align: start;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  details ul li {
+    padding: 1px;
   }
 }
 
 @media screen and (min-width: 1000px) {
+  .profile {
+    margin-top: 4em;
+  }
+
   .profile-area {
-    grid-template-columns: 0.5fr 1fr;
+    grid-template-columns: 0.6fr 1fr;
+    height: 56vh;
+    align-items: center;
+  }
+
+  .profile-pic {
+    margin-left: 1em;
   }
 
   .btn-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
+    margin: 22px 0;
   }
 
   .profile-info {
@@ -73,5 +108,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+  }
+
+  .describe {
+    text-align: start;
+  }
+
+  details ul {
+    grid-template-columns: 17em 17em;
+    margin-bottom: 1em;
+  }
+
+  details ul li {
+    padding: 5px 10px;
+    text-align: start;
+    font-size: 1.2em;
   }
 }
