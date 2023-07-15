@@ -64,7 +64,7 @@ const projects = [
     imgSrc: babyNest,
     alt: "babyNest",
     title: "Baby Name Nest",
-    link: "https://video-blog.onrender.com",
+    link: "https://baby-name-nest.onrender.com/",
     description:
       "Frontend, backend and database webpage using React, Node.JS and PostgreSQL",
   },
