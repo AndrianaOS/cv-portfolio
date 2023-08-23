@@ -47,10 +47,23 @@ function Projects() {
             Rap and Blues project was an assessment during my time at the
             bootcamp. This backend follows the CRUD method
           </li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>
+            Baby Name Nest was my own take on a React challenge which gave a
+            json file with names. I decided to make it a challenge for myself to
+            include a database and unisex option. Each sex option gives the name
+            a different background color when chosen
+          </li>
+          <li>
+            Wix clone was an HTML and CSS challenge to try and recreate a
+            resume. This helped me about having a plan of how to tackle moving
+            parts on a page instead of just jumping in to start coding
+          </li>
+          <li>
+            Good PR is an application that pulls information from GitHub to
+            track team members participating in the final project at Code Your
+            Future. This was to ensure that members were contributing fairly to
+            the project.
+          </li>
         </ul>
       </aside>
       <Link to="/" className="list-item">
