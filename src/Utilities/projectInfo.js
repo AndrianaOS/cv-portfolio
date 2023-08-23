@@ -86,7 +86,8 @@ const projects = [
     alt: "pr-tracker",
     title: "Pull Request Tracker",
     link: "https://the-goodpr.onrender.com/",
-    description: "Frontend webpage using HTML and CSS",
+    description:
+      "This is a team Full Stack Project that was completed as a final project for the bootcamp. A PERN stack was used",
   },
 ];
 
