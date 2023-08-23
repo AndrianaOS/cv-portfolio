@@ -19,3 +19,29 @@
 .pic-card {
   border: 2px solid black;
 }
+
+.notes {
+  text-align: start;
+}
+
+.notes h2 {
+  padding-left: 15px;
+}
+
+.notes ul {
+  padding-right: 15px;
+}
+
+.notes ul li {
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+@media screen and (min-width: 775px) {
+  .notes ul {
+    /* margin: 0 1em; */
+    column-count: 2;
+    column-gap: 55px;
+    column-fill: balance;
+  }
+}

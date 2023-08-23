@@ -24,7 +24,7 @@ function Projects() {
         })}
       </section>
       <aside className="notes">
-        <h3>Notes about Projects</h3>
+        <h2>Notes about Projects</h2>
         <ul>
           <li>
             The Quotes Generator originally did not include the database until I

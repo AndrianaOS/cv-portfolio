@@ -6,12 +6,19 @@
   column-gap: 20px;
 }
 
-.client-side {
-  border: 2px solid #fad9d9;
+.client-server {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 15px;
 }
 
-.tools {
+.client-side,
+.tools,
+.server-side {
   border: 2px solid #fad9d9;
+}
+.client-side {
+  margin-bottom: 10px;
 }
 
 .personal {
@@ -33,7 +40,8 @@
 }
 
 .client-side ul,
-.tools ul {
+.tools ul,
+.server-side ul {
   padding: 0 1em;
   text-align: start;
 }

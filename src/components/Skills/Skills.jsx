@@ -7,20 +7,24 @@ function Skills() {
       <h1>Skills</h1>
       <h2>Technical Skills</h2>
       <div className="tech">
-        <section className="client-side">
-          <h3>Client Side</h3>
-          <ul>
-            <li className="skills-list">HTML5</li>
-            <li className="skills-list">CSS</li>
-            <li className="skills-list">JavaScript</li>
-            <li className="skills-list">React.JS</li>
-          </ul>
+        <section className="client-server">
+          <aside className="client-side">
+            <h3>Client Side</h3>
+            <ul>
+              <li className="skills-list">HTML5</li>
+              <li className="skills-list">CSS</li>
+              <li className="skills-list">JavaScript</li>
+              <li className="skills-list">React.JS</li>
+            </ul>
+          </aside>
 
-          <h3>Server Side</h3>
-          <ul>
-            <li className="skills-list">SQL particularly PostgreSQL</li>
-            <li className="skills-list">Node.JS with Express Framework</li>
-          </ul>
+          <aside className="server-side">
+            <h3>Server Side</h3>
+            <ul>
+              <li className="skills-list">SQL particularly PostgreSQL</li>
+              <li className="skills-list">Node.JS with Express Framework</li>
+            </ul>
+          </aside>
         </section>
         <section className="tools">
           <h3>Tools</h3>
@@ -35,6 +39,14 @@ function Skills() {
             <li className="skills-list">Render</li>
             <li className="skills-list">Microsoft Office 365</li>
             <li className="skills-list">Supabase</li>
+          </ul>
+        </section>
+      </div>
+      <div>
+        <section className="product">
+          <h2>Product Management Skills</h2>
+          <ul>
+            <li className="skills-list"></li>
           </ul>
         </section>
       </div>

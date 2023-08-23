@@ -14,14 +14,17 @@ function About() {
           I have always been fascinated by coding and my journey of learning to
           code began during lockdown. I learnt HTML and CSS by myself and fell
           in love with being able to build something that I can instantly see
-          the results of. I attempted to build a frontend webpage and realized I
-          needed to learn more to improve the skills I had began to learn.
-          Additionally I learnt JavaScript, React, Node.JS and SQL through the
-          bootcamp.
+          the results of.
+        </li>
+        <li>
+          After my attempt to build a frontend webpage using only HTML and CSS,
+          I realized I needed to learn more to improve the skills I had began to
+          learn. Additionally I learnt JavaScript, React, Node.JS and SQL
+          through the bootcamp.
         </li>
         <li>
           I have an interest in learning new things and developing my skills and
-          knowledge. Using the skills and knowledge I have acquired so far, i
+          knowledge. Using the skills and knowledge I have acquired so far, I
           have built a number of webpages ranging from frontend projects to full
           stack projects.
         </li>
