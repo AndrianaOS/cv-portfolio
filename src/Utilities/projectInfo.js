@@ -6,6 +6,7 @@ import hotel from "../Assets/hotel.png";
 import babyNest from "../Assets/baby-nest.png";
 import vlog from "../Assets/vlog.png";
 import clone from "../Assets/clone.png";
+import goodPr from "../Assets/GoodPR.png";
 
 const projects = [
   {
@@ -14,7 +15,8 @@ const projects = [
     alt: "pokedex",
     title: "Pokedex",
     link: "https://andriana-pokedex.netlify.app/",
-    description: "Frontend webpage using React",
+    description:
+      "This was my 1st frontend application using React. I tried my hand at using routes and counters.",
   },
   {
     id: 2,
@@ -23,7 +25,7 @@ const projects = [
     title: "Quote Generator",
     link: "https://andriana-quote-generator.onrender.com",
     description:
-      "Frontend, backend and database webpage using React, Node.JS and PostgreSQL",
+      "This project features a Frontend, backend and database using React, Node.JS and PostgreSQL.",
   },
   {
     id: 3,
@@ -31,7 +33,8 @@ const projects = [
     alt: "chat",
     title: "Hub Chat",
     link: "https://chat-website-oerg.onrender.com",
-    description: "Frontend and backend webpage using React and Node.JS",
+    description:
+      "This is my second Frontend and backend webpage using React and Node.JS",
   },
   {
     id: 4,
@@ -74,6 +77,15 @@ const projects = [
     alt: "wix-clone",
     title: "Resume Clone",
     link: "https://clone-resume-1c2295.netlify.app/",
+    description: "Frontend webpage using HTML and CSS",
+  },
+
+  {
+    id: 9,
+    imgSrc: goodPr,
+    alt: "pr-tracker",
+    title: "Pull Request Tracker",
+    link: "https://the-goodpr.onrender.com/",
     description: "Frontend webpage using HTML and CSS",
   },
 ];
