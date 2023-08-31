@@ -62,7 +62,8 @@ function Projects() {
             Good PR is an application that pulls information from GitHub to
             track team members participating in the final project at Code Your
             Future. This was to ensure that members were contributing fairly to
-            the project.
+            the project. During this project, I acted in the capacity of a
+            Technical lead and a Full Stack Developer
           </li>
           <li>
             The Visual Calendar was a presentation I created to solve what I saw
