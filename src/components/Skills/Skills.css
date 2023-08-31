@@ -10,6 +10,7 @@
   display: grid;
   grid-template-rows: 1fr 1fr;
   row-gap: 15px;
+  width: 165px;
 }
 
 .client-side,
@@ -61,6 +62,16 @@
 }
 
 @media screen and (min-width: 775px) {
+  .tech {
+    column-gap: 0;
+    margin-right: 60px;
+  }
+
+  .tools ul,
+  .client-side ul,
+  .server-side ul {
+    column-count: 2;
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -68,5 +79,10 @@
     width: 55em;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .personal ul {
+    column-count: 2;
+    column-fill: balance;
   }
 }
