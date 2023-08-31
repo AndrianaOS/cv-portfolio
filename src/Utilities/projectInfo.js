@@ -7,6 +7,7 @@ import babyNest from "../Assets/baby-nest.png";
 import vlog from "../Assets/vlog.png";
 import clone from "../Assets/clone.png";
 import goodPr from "../Assets/GoodPR.png";
+import visualCalendar from "../Assets/Visual-Calendar.png";
 
 const projects = [
   {
@@ -88,6 +89,15 @@ const projects = [
     link: "https://the-goodpr.onrender.com/",
     description:
       "This is a team Full Stack Project that was completed as a final project for the bootcamp. A PERN stack was used",
+  },
+  {
+    id: 10,
+    imgSrc: visualCalendar,
+    alt: "product presentation",
+    title: "Visual Calendar",
+    link: "https://docs.google.com/presentation/d/1B-J1xA9wYSJLsBiyz4t-vCYnYUQ1pFsF/edit?usp=sharing&ouid=106874600262243080126&rtpof=true&sd=true",
+    description:
+      "This is a presentation I created while on the Product Management pathway during my time at the bootcamp",
   },
 ];
 
