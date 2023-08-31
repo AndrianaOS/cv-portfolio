@@ -21,8 +21,10 @@ function Skills() {
           <aside className="server-side">
             <h3>Server Side</h3>
             <ul>
-              <li className="skills-list">SQL particularly PostgreSQL</li>
-              <li className="skills-list">Node.JS with Express Framework</li>
+              <li className="skills-list">PostgreSQL</li>
+              <li className="skills-list">Node.JS</li>
+              <li className="skills-list">Express.JS</li>
+              <li className="skills-list">Rest API</li>
             </ul>
           </aside>
         </section>
@@ -30,7 +32,8 @@ function Skills() {
           <h3>Tools</h3>
           <ul>
             <li className="skills-list">Git</li>
-            <li className="skills-list">GitHub and GitHub Project Boards</li>
+            <li className="skills-list">GitHub</li>
+            <li className="skills-list">GitHub Project Boards</li>
             <li className="skills-list">Virtual Studio Code</li>
             <li className="skills-list">Figma</li>
             <li className="skills-list">Miro</li>
@@ -42,14 +45,7 @@ function Skills() {
           </ul>
         </section>
       </div>
-      <div>
-        <section className="product">
-          <h2>Product Management Skills</h2>
-          <ul>
-            <li className="skills-list"></li>
-          </ul>
-        </section>
-      </div>
+
       <div className="personal">
         <h2>Personal Attributes</h2>
         <section className="attributes">
