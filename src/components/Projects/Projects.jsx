@@ -9,7 +9,7 @@ function Projects() {
       <section className="pics">
         {projects.map((project) => {
           return (
-            <aside className="pic-card" key={project.id}>
+            <aside className="pic-card" key={project.id} id={project.id}>
               <img
                 src={project.imgSrc}
                 alt={project.alt}
@@ -63,6 +63,11 @@ function Projects() {
             track team members participating in the final project at Code Your
             Future. This was to ensure that members were contributing fairly to
             the project.
+          </li>
+          <li>
+            The Visual Calendar was a presentation I created to solve what I saw
+            as a gap in regards to booking meetings and finding out peoples
+            schedules and availabilities.
           </li>
         </ul>
       </aside>
