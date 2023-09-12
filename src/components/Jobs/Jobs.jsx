@@ -66,7 +66,7 @@ function Jobs() {
           ))}
         </div>
       </aside>
-      <Link to="/" className="list-item">
+      <Link to="/" className="list-item back">
         Back
       </Link>
     </div>

@@ -72,7 +72,7 @@ function Projects() {
           </li>
         </ul>
       </aside>
-      <Link to="/" className="list-item">
+      <Link to="/" className="list-item back">
         Back
       </Link>
     </div>

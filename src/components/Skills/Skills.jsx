@@ -76,7 +76,7 @@ function Skills() {
           </ul>
         </section>
       </div>
-      <Link to="/" className="list-item">
+      <Link to="/" className="list-item back">
         Back
       </Link>
     </div>
