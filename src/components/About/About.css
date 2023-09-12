@@ -27,7 +27,7 @@
 
 @media screen and (min-width: 775px) {
   .info {
-    margin: 0 1em;
+    margin: 0 1em 20px;
     column-count: 2;
     column-gap: 55px;
   }
