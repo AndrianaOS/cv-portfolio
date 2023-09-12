@@ -33,7 +33,7 @@ function About() {
           Forensic Science.
         </li>
       </ul>
-      <Link to="/" className="list-item">
+      <Link to="/" className="list-item back">
         Back
       </Link>
     </div>
