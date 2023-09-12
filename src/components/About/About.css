@@ -1,7 +1,11 @@
 .info {
-  background: #fad9d9;
-  padding: 1.5em;
+  padding: 1.5em 1.5em 1.5em 2.2em;
   text-align: left;
+  margin: 10px 10px 20px;
+  border-radius: 16px;
+  background: rgb(250, 217, 217, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(3.3px);
 }
 
 .info li {
@@ -10,6 +14,15 @@
 
 .info li:nth-last-child(1) {
   margin-bottom: 0;
+}
+
+.back {
+  padding: 0.3em;
+}
+
+.back:hover {
+  color: #fae1e2;
+  border-color: #fae1e2;
 }
 
 @media screen and (min-width: 775px) {
