@@ -2,20 +2,28 @@
   display: grid;
 }
 
-.employ {
-  margin: 0 20px 10px;
-  padding: 10px;
-  height: 15em;
+.edu-cards,
+.employ-cards,
+.volunteer-cards {
+  padding: 1.5em;
+  text-align: left;
+  margin: 10px 10px 20px;
+  border-radius: 16px;
+  background: rgb(250, 217, 217, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(3.3px);
+  gap: 10px;
 }
 
+.employ,
+.volunteer,
 .edu {
-  margin: 0 20px 10px;
-  padding: 10px;
+  margin: 0 5px;
 }
 
 .date-company {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 0.5em;
 }
@@ -35,27 +43,9 @@
   font-size: 0.9em;
 }
 
-.employ:nth-child(odd),
-.volunteer:nth-child(odd),
-.edu:nth-child(odd) {
-  border: 3px solid #fad9d9;
-}
-
-.employ:nth-child(even),
-.volunteer:nth-child(even),
-.edu:nth-child(even) {
-  border: 3px solid #b0aad2;
-}
-
 .volunteering,
 .employment {
-  margin-top: 5em;
-}
-
-.volunteer {
-  margin: 0 20px 10px;
-  padding: 10px;
-  height: 135px;
+  margin-top: 70px;
 }
 
 @media screen and (min-width: 775px) {
@@ -67,6 +57,18 @@
 }
 
 @media screen and (min-width: 1000px) {
+  .edu h4,
+  .edu h5 {
+    text-align: center;
+  }
+
+  .edu ul {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+  }
+
   .employ-cards,
   .volunteer-cards {
     grid-template-columns: repeat(auto-fit, minmax(21em, 1fr));
