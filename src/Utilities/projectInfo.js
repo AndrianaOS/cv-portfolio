@@ -17,7 +17,7 @@ const projects = [
     title: "Pokedex",
     link: "https://andriana-pokedex.netlify.app/",
     description:
-      "This was my 1st frontend application using React. I tried my hand at using routes and counters.",
+      "This was my 1st frontend application using React. I tried my hand at using routers and counters.",
   },
   {
     id: 2,
@@ -52,7 +52,7 @@ const projects = [
     title: "Andriana Hotel",
     link: "https://cyf-andriana-hotel-react.netlify.app",
     description:
-      "Frontend and backend webpage using React and Node.JS. Large screen version only",
+      "Frontend and backend webpage using React and Node.JS. Large screen version only. This is still in progress.",
   },
   {
     id: 6,
@@ -61,7 +61,7 @@ const projects = [
     title: "Rap N Blues",
     link: "https://video-blog.onrender.com",
     description:
-      "Frontend, backend and database webpage using React, Node.JS and PostgreSQL",
+      "Frontend, backend and database webpage using React, Node.JS and PostgreSQL. This was my 1st full stack application.",
   },
   {
     id: 7,
@@ -78,7 +78,7 @@ const projects = [
     alt: "wix-clone",
     title: "Resume Clone",
     link: "https://clone-resume-1c2295.netlify.app/",
-    description: "Frontend webpage using HTML and CSS",
+    description: "Frontend webpage using HTML and CSS. The template was taken from Wix.com",
   },
 
   {
