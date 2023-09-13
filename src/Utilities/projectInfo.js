@@ -1,12 +1,12 @@
 import pokedex from "../Assets/pokedex.png";
-import chatApp from "../Assets/chat app.png";
+import chatApp from "../Assets/chat.png";
 import soulful from "../Assets/soulful.png";
-import quote from "../Assets/quote-generator.png";
+import quote from "../Assets/quotes.png";
 import hotel from "../Assets/hotel.png";
-import babyNest from "../Assets/baby-nest.png";
-import vlog from "../Assets/vlog.png";
+import babyNest from "../Assets/baby.png";
+import vlog from "../Assets/rap.png";
 import clone from "../Assets/clone.png";
-import goodPr from "../Assets/GoodPR.png";
+import goodPr from "../Assets/pr.png";
 import visualCalendar from "../Assets/Visual-Calendar.png";
 
 const projects = [
