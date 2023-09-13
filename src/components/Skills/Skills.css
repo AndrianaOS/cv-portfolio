@@ -85,12 +85,6 @@
   .tools h3 {
     text-align: left;
   }
-
-  /* .tools ul,
-  .client-side ul,
-  .server-side ul {
-    column-count: 2;
-  } */
 }
 
 @media screen and (min-width: 1000px) {
