@@ -1,3 +1,44 @@
+[id="1"] {
+  grid-area: pokedex;
+}
+
+[id="2"] {
+  grid-area: quotes;
+}
+
+[id="3"] {
+  grid-area: chat;
+}
+
+[id="4"] {
+  grid-area: soulful;
+  min-height: 445px;
+}
+
+[id="5"] {
+  grid-area: hotel;
+}
+
+[id="6"] {
+  grid-area: rap;
+}
+
+[id="7"] {
+  grid-area: baby;
+}
+
+[id="8"] {
+  grid-area: wix;
+}
+
+[id="9"] {
+  grid-area: pr;
+}
+
+[id="10"] {
+  grid-area: pm;
+}
+
 .pics {
   display: grid;
   grid-template-areas:
@@ -11,130 +52,10 @@
     "wix"
     "pr"
     "pm";
-  column-gap: 15px;
+  column-gap: 10px;
   row-gap: 20px;
-  margin: 25px;
+  margin: 15px;
 }
-
-#1 {
-  grid-area: pokedex;
-  min-height: 474px;
-}
-
-#2 {
-  grid-area: quotes;
-  min-height: 474px;
-}
-
-#3 {
-  grid-area: chat;
-  min-height: 474px;
-}
-
-#4 {
-  grid-area: soulful;
-  min-height: 474px;
-}
-
-#5 {
-  grid-area: hotel;
-}
-
-#6 {
-  grid-area: rap;
-  min-height: 474px;
-}
-
-#7 {
-  grid-area: baby;
-  min-height: 474px;
-}
-
-#8 {
-  grid-area: wix;
-  min-height: 474px;
-}
-
-#9 {
-  grid-area: pr;
-  min-height: 474px;
-}
-
-#10 {
-  grid-area: pm;
-}
-
-/* body {
-  margin: 40px;
-}
-
-.sidebar {
-    grid-area: sidebar;
-  }
-
-  .sidebar2 {
-    grid-area: sidebar2;
-  }
-
-  .content {
-    grid-area: content;
-  }
-
-  .header {
-    grid-area: header;
-  }
-
-  .footer {
-    grid-area: footer;
-  }
-
-  .wrapper {
-    background-color: #fff;
-    color: #444;
-  }
-
-  .wrapper {
-    display: grid;
-    grid-gap: 1em;
-    grid-template-areas:
-     "header"
-     "sidebar"
-     "content"
-     "sidebar2"
-     "footer"
-  }
-
-  @media only screen and (min-width: 500px)  {
-  .wrapper {
-
-    grid-template-columns: 20% auto;
-    grid-template-areas:
-    "header   header"
-    "sidebar  content"
-    "sidebar2 sidebar2"
-    "footer   footer";
-  }
-  }
-
-
-
-.box {
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
-  padding: 10px;
-  font-size: 150%; 
-}
-
-.header,
-.footer {
-  background-color: #999;
-}
-
-.sidebar2 {
-  background-color: #ccc;
-  color: #444;
-} */
 
 .project-picture {
   width: 170px;
@@ -142,12 +63,12 @@
 }
 
 .project-info {
-  font-size: 1.1em;
-  padding: 1em 0.5em 0;
+  font-size: 17px;
+  margin: 10px 0 0 0;
 }
 
 .pic-card {
-  padding: 1.5em;
+  padding: 10px;
   margin: auto;
   border-radius: 16px;
   background: rgba(238, 224, 224, 0.275);
@@ -174,9 +95,13 @@
 }
 
 @media screen and (min-width: 775px) {
+  .pic-card {
+    max-width: 300px;
+  }
+
   .pics {
     grid-template-columns: auto auto;
-    max-width: 775px;
+    justify-content: space-evenly;
     grid-template-areas:
       "pokedex quotes"
       "chat soulful"
@@ -186,21 +111,19 @@
   }
 
   .notes ul {
-    /* margin: 0 1em; */
     column-count: 2;
     column-gap: 55px;
     column-fill: balance;
   }
 }
 
-/* @media only screen and (min-width: 600px)   {
-    .wrapper {
-      grid-gap: 20px;
-      grid-template-columns: 120px auto 120px;
-      grid-template-areas:
-      "header  header  header"
-      "sidebar content sidebar2"
-      "footer  footer  footer";
-      max-width: 600px;
-    }
-  } */
+@media screen and (min-width: 1000px) {
+  .pics {
+    grid-template-columns: auto auto auto;
+    grid-template-areas:
+      "pokedex quotes chat"
+      "soulful rap baby"
+      "wix pr hotel"
+      "wix pr pm";
+  }
+}
