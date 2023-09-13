@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "../Projects/Projects.css";
 import projects from "../../Utilities/projectInfo";
+import github from "../../Assets/github.png";
 
 function Projects() {
   return (
@@ -16,7 +17,15 @@ function Projects() {
                 className="project-picture"
               />
               <div className="project-info">
-                <a href={project.link}>{project.title}</a>
+                <aside className="project-links">
+                  <a href={project.link}>{project.title}</a>
+                  {project.github ? (
+                    <a href={project.github} className="github">
+                      <img src={github} alt="github icon" />
+                    </a>
+                  ) : null}
+                </aside>
+
                 <p>{project.description}</p>
               </div>
             </aside>
