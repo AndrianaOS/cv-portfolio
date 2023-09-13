@@ -1,6 +1,6 @@
 const jobs = [
   {
-    id: 1,
+    id: "chl",
     date: "11/2019 to 12/2021",
     company: "CHL Mortgages",
     role: "Arrears Operations Specialist",
@@ -10,7 +10,7 @@ const jobs = [
     ],
   },
   {
-    id: 2,
+    id: "metro3",
     date: "02/2018 to 10/2019",
     company: "Metro Bank",
     role: "Customer Service Representative",
@@ -19,7 +19,7 @@ const jobs = [
     ],
   },
   {
-    id: 3,
+    id: "metro2",
     date: "10/2017 to 02/2018 ",
     company: "Metro Bank",
     role: "Lead Cashier",
@@ -28,7 +28,7 @@ const jobs = [
     ],
   },
   {
-    id: 4,
+    id: "metro1",
     date: "10/2016 to 10/2017 ",
     company: "Metro Bank",
     role: "Cashier",
@@ -37,7 +37,7 @@ const jobs = [
     ],
   },
   {
-    id: 5,
+    id: "river",
     date: "11/2015 to 10/2016",
     company: "River Island",
     role: "Retail sales assistant",

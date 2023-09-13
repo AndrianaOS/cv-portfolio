@@ -1,21 +1,21 @@
 const buttonNames = [
   {
-    id: 1,
+    id: "about",
     linkTo: "/about",
     name: "About me",
   },
   {
-    id: 2,
+    id: "projects",
     linkTo: "/projects",
     name: "Technical Projects",
   },
   {
-    id: 3,
+    id: "skills",
     linkTo: "/skills",
     name: "Skills",
   },
   {
-    id: 4,
+    id: "jobs",
     linkTo: "/jobs",
     name: "Education & Jobs",
   },

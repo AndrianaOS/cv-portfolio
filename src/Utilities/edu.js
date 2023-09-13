@@ -1,6 +1,6 @@
 const edu = [
   {
-    id: 1,
+    id: "one",
     date: "09/2022 - To Present",
     institution: "Code Your Future (CYF)",
     subject: "Software Development Course",
@@ -13,7 +13,7 @@ const edu = [
     ],
   },
   {
-    id: 2,
+    id: "two",
     date: "09/2010 - 06/2013",
     institution: "London South Bank University",
     subject: "BSc (Hons) Forensic Science",
