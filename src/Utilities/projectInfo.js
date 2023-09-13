@@ -61,7 +61,7 @@ const projects = [
     title: "Rap N Blues",
     link: "https://video-blog.onrender.com",
     description:
-      "Frontend, backend and database webpage using React, Node.JS and PostgreSQL. This was my 1st full stack application.",
+      "Frontend, backend and database webpage using React, Node.JS and PostgreSQL.",
   },
   {
     id: 7,
@@ -78,7 +78,8 @@ const projects = [
     alt: "wix-clone",
     title: "Resume Clone",
     link: "https://clone-resume-1c2295.netlify.app/",
-    description: "Frontend webpage using HTML and CSS. The template was taken from Wix.com",
+    description:
+      "Frontend webpage using HTML and CSS. The template was taken from Wix.com",
   },
 
   {
