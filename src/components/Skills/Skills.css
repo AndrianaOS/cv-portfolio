@@ -1,34 +1,35 @@
 .tech {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 180px 200px;
   justify-items: center;
-  margin: 0px 10px;
+  margin: 0px 15px;
   column-gap: 20px;
+  padding: 10px;
+  text-align: left;
+  border-radius: 16px;
+  background: rgba(238, 224, 224, 0.275);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(3.3px);
 }
 
 .client-server {
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  row-gap: 15px;
-  width: 165px;
-}
-
-.client-side,
-.tools,
-.server-side {
-  border: 2px solid #fad9d9;
-}
-.client-side {
-  margin-bottom: 10px;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 60px;
+  justify-items: self-start;
 }
 
 .personal {
-  margin: 4em 10px 1em;
+  margin: 4em 15px 1em;
 }
 
 .attributes {
-  background: #fad9d9;
   padding: 2em;
+  text-align: left;
+  border-radius: 16px;
+  background: rgba(238, 224, 224, 0.275);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(3.3px);
 }
 
 .attributes ul {
@@ -43,8 +44,17 @@
 .client-side ul,
 .tools ul,
 .server-side ul {
-  padding: 0 1em;
+  padding: 0 7px;
   text-align: start;
+}
+
+.tools h3 {
+  text-align: center;
+}
+
+.tools ul {
+  column-count: 3;
+  column-fill: balance;
 }
 
 .skills-list {
@@ -63,15 +73,24 @@
 
 @media screen and (min-width: 775px) {
   .tech {
-    column-gap: 0;
-    margin-right: 60px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    grid-template-rows: 1fr;
   }
 
-  .tools ul,
+  .tools ul {
+    column-count: 2;
+  }
+
+  .tools h3 {
+    text-align: left;
+  }
+
+  /* .tools ul,
   .client-side ul,
   .server-side ul {
     column-count: 2;
-  }
+  } */
 }
 
 @media screen and (min-width: 1000px) {
