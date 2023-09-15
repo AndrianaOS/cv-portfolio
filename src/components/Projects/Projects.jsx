@@ -18,9 +18,16 @@ function Projects() {
               />
               <div className="project-info">
                 <aside className="project-links">
-                  <a href={project.link}>{project.title}</a>
+                  <a href={project.link} target="_blank" rel="noreferrer">
+                    {project.title}
+                  </a>
                   {project.github ? (
-                    <a href={project.github} className="github">
+                    <a
+                      href={project.github}
+                      className="github"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <img src={github} alt="github icon" />
                     </a>
                   ) : null}
