@@ -51,7 +51,7 @@ const projects = [
     date: "01/2023",
     github: "https://github.com/AndrianaOS/Affirmation-page",
     link: "https://soulful-truths.netlify.app",
-    description: "Frontend webpage using HTML, CSS and JavaScript",
+    description: "Frontend webpage using HTML, CSS and JavaScript. This was a team project.",
   },
   {
     id: 5,
