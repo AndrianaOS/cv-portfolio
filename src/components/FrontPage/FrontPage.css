@@ -12,7 +12,7 @@
   background: rgba(238, 224, 224, 0.275);
   position: relative;
   top: 5em;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(3.3px);
 }
 
@@ -39,6 +39,7 @@ details ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
 @media screen and (min-width: 775px) {
@@ -86,13 +87,37 @@ details ul {
 }
 
 @media screen and (min-width: 1000px) {
+  #about {
+    grid-area: about;
+    grid-column: 1 / 3;
+  }
+
+  #projects {
+    grid-area: projects;
+    grid-column: 3 / 5;
+  }
+
+  #skills {
+    grid-area: skills;
+    grid-column: 1 / 3;
+  }
+
+  #jobs {
+    grid-area: jobs;
+    grid-column: 3 / 5;
+  }
+
+  #view {
+    grid-area: view;
+    grid-column: 2/4;
+  }
+
   .profile {
     margin-top: 4em;
   }
 
   .profile-area {
     grid-template-columns: 0.6fr 1fr;
-    height: 56vh;
     align-items: center;
   }
 
@@ -102,7 +127,12 @@ details ul {
 
   .btn-info {
     display: grid;
+    grid-template-areas:
+      "about projects"
+      "skills jobs"
+      "view view";
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 55px);
     column-gap: 20px;
     margin: 22px 0;
   }

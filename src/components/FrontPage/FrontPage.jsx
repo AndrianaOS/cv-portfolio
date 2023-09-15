@@ -25,11 +25,23 @@ function FrontPage() {
           <aside className="btn-info">
             {buttonNames.map((eachButton) => {
               return (
-                <Link to={eachButton.linkTo} key={eachButton.id}>
+                <Link
+                  to={eachButton.linkTo}
+                  key={eachButton.id}
+                  id={eachButton.id}
+                >
                   <LinkButtons name={eachButton.name} />
                 </Link>
               );
             })}
+            <a
+              href="https://drive.google.com/file/d/1eBI7TdwmdyuvSRVyETdUoFXXezqwGuGB/view?usp=sharing"
+              id="view"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="link-btn">View CV</button>
+            </a>
           </aside>
         </div>
       </section>
