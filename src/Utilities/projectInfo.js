@@ -15,6 +15,7 @@ const projects = [
     imgSrc: pokedex,
     alt: "pokedex",
     title: "Pokedex",
+    date: "02/2023",
     github: "https://github.com/AndrianaOS/pokedex",
     link: "https://andriana-pokedex.netlify.app/",
     description:
@@ -24,7 +25,8 @@ const projects = [
     id: 2,
     imgSrc: quote,
     alt: "quote",
-    title: "Quote Generator",
+    title: "Quotes",
+    date: "03/2023",
     github: "https://github.com/AndrianaOS/Node-Coursework-Week1",
     link: "https://andriana-quote-generator.onrender.com",
     description:
@@ -35,6 +37,7 @@ const projects = [
     imgSrc: chatApp,
     alt: "chat",
     title: "Hub Chat",
+    date: "03/2023",
     github: "https://github.com/AndrianaOS/cyf-chat-react",
     link: "https://chat-website-oerg.onrender.com",
     description:
@@ -45,6 +48,7 @@ const projects = [
     imgSrc: soulful,
     alt: "affirmation",
     title: "Soulful Truths",
+    date: "01/2023",
     github: "https://github.com/AndrianaOS/Affirmation-page",
     link: "https://soulful-truths.netlify.app",
     description: "Frontend webpage using HTML, CSS and JavaScript",
@@ -54,6 +58,7 @@ const projects = [
     imgSrc: hotel,
     alt: "hotel",
     title: "Andriana Hotel",
+    date: "03/2023",
     github: "https://github.com/AndrianaOS/cyf-hotel-react",
     link: "https://cyf-andriana-hotel-react.netlify.app",
     description:
@@ -64,6 +69,7 @@ const projects = [
     imgSrc: vlog,
     alt: "vlog",
     title: "Rap N Blues",
+    date: "06/2023",
     github: "https://github.com/AndrianaOS/Full-Stack-Project-Assessment",
     link: "https://video-blog.onrender.com",
     description:
@@ -73,7 +79,8 @@ const projects = [
     id: 7,
     imgSrc: babyNest,
     alt: "babyNest",
-    title: "Baby Name Nest",
+    title: "Baby Names",
+    date: "06/2023",
     github: "https://github.com/AndrianaOS/baby-picker",
     link: "https://baby-name-nest.onrender.com/",
     description:
@@ -84,6 +91,7 @@ const projects = [
     imgSrc: clone,
     alt: "wix-clone",
     title: "Resume Clone",
+    date: "11/2022",
     github: "https://github.com/AndrianaOS/responsive-grid-project",
     link: "https://clone-resume-1c2295.netlify.app/",
     description:
@@ -95,6 +103,7 @@ const projects = [
     imgSrc: goodPr,
     alt: "pr-tracker",
     title: "Pull Request Tracker",
+    date: "07/2023",
     github: "https://github.com/AndrianaOS/GOOD-PR-v3",
     link: "https://the-goodpr.onrender.com/",
     description:
@@ -105,6 +114,7 @@ const projects = [
     imgSrc: visualCalendar,
     alt: "product presentation",
     title: "Visual Calendar",
+    date: "07/2023",
     link: "https://docs.google.com/presentation/d/1B-J1xA9wYSJLsBiyz4t-vCYnYUQ1pFsF/edit?usp=sharing&ouid=106874600262243080126&rtpof=true&sd=true",
     description:
       "This is a presentation I created while on the Product Management pathway during my time at the bootcamp",
