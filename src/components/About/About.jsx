@@ -20,13 +20,17 @@ function About() {
           After my attempt to build a frontend webpage using only HTML and CSS,
           I realized I needed to learn more to improve the skills I had began to
           learn. Additionally I learnt JavaScript, React, Node.JS and SQL
-          through the bootcamp.
+          through the programme.
         </li>
         <li>
           I have an interest in learning new things and developing my skills and
           knowledge. Using the skills and knowledge I have acquired so far, I
           have built a number of webpages ranging from frontend projects to full
           stack projects.
+        </li>
+        <li>
+          After starting the course, I started mentoring others new to coding learn and
+          overcome their blockers in mainly HTML and CSS.
         </li>
         <li>
           I have a background in the financial sector as well a degree in
