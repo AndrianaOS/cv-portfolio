@@ -31,6 +31,7 @@ function Projects() {
                       <img src={github} alt="github icon" />
                     </a>
                   ) : null}
+                  <span>Created: {project.date}</span>
                 </aside>
 
                 <p>{project.description}</p>
