@@ -1,7 +1,6 @@
 .link-btn {
   font-size: 1.1em;
   padding: 0.5em;
-  margin-bottom: 1em;
   width: 15em;
   background: white;
   border-radius: 0.8em;
@@ -14,4 +13,10 @@
   color: #46b2ea;
   text-transform: uppercase;
   border: 2px solid #46b2ea;
+}
+
+@media screen and (min-width: 775px) {
+}
+
+@media screen and (min-width: 1000px) {
 }
