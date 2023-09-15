@@ -5,8 +5,8 @@ const jobs = [
     company: "CHL Mortgages",
     role: "Arrears Operations Specialist",
     duties: [
-      "Contacting customers by telephone regarding arrears on mortgage accounts and dealing with any queries",
-      "Taking payments for accounts that are in arrears and analysis of finances to work out repayment plans.",
+      "Engaged in telephone communications with customers to address account arrears and resolve associated inquiries.",
+      "Processed payments for delinquent accounts and conducted financial analysis to work out repayment strategies.",
     ],
   },
   {
@@ -15,7 +15,7 @@ const jobs = [
     company: "Metro Bank",
     role: "Customer Service Representative",
     duties: [
-      "Onboarding new personal and business customers providing lending facilities and dealing with queries, customer service duties and ATM balancing.",
+      "•	Onboarded new personal and business customers, administered lending services and dealt with queries, customer service duties and ATM balancing.",
     ],
   },
   {
@@ -24,7 +24,7 @@ const jobs = [
     company: "Metro Bank",
     role: "Lead Cashier",
     duties: [
-      "Supporting the cashiers in their tasks by performing observations, coaching sessions and till checks to improve service as well as handling cash orders and transfers for branch.",
+      "Enhanced cashier performance through observational assessments and coaching sessions.",
     ],
   },
   {
@@ -33,7 +33,7 @@ const jobs = [
     company: "Metro Bank",
     role: "Cashier",
     duties: [
-      "Customer service queries, cash handling and training on new cashier staff",
+      "Addressed customer queries, managed cash transactions and provided training to onboard new staff.",
     ],
   },
   {
@@ -42,7 +42,7 @@ const jobs = [
     company: "River Island",
     role: "Retail sales assistant",
     duties: [
-      "Dealing with customer queries and handling financial transactions.",
+      "Managed customer inquiries and executed financial transactions.",
     ],
   },
 ];

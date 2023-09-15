@@ -10,14 +10,14 @@ const volunteering = [
     id: "hmrc",
     date: "01/2015 to 02/2015",
     company: "HM Revenue and Customs, Security and Information Directorate",
-    role: "Business Management Team trainee",
+    role: "Business Management trainee ",
   },
 
   {
     id: "dwp",
     date: "11/2014 to 12/2014",
     company: "Department for Work and Pensions",
-    role: "Business Support Team trainee",
+    role: "Business Support trainee",
   },
 
   {
