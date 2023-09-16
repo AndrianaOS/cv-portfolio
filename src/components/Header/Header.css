@@ -44,6 +44,7 @@
 @media screen and (min-width: 1000px) {
   .large-name-role {
     display: flex;
+    font-weight: bold;
   }
 
   .large-menu-items {
