@@ -1,46 +1,58 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../Projects/Projects.css";
 import projects from "../../Utilities/projectInfo";
 import github from "../../Assets/github.png";
 
-function Projects() {
+function Project() {
+  const [flip, setFlip] = useState(false);
   return (
     <div>
-      <h1>Projects</h1>
-      <section className="pics">
+      <h1>Experiment Flip card</h1>
+      <p>(Click cards to view for information)</p>
+      <section className="pics card-grid">
         {projects.map((project) => {
           return (
-            <aside className="pic-card" key={project.id} id={project.id}>
-              <img
-                src={project.imgSrc}
-                alt={project.alt}
-                className="project-picture"
-              />
-              <div className="project-info">
-                <aside className="project-links">
-                  <a href={project.link} target="_blank" rel="noreferrer">
-                    {project.title}
-                  </a>
-                  {project.github ? (
-                    <a
-                      href={project.github}
-                      className="github"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <img src={github} alt="github icon" />
+            <div className={`card ${flip ? "flip" : ""}`}>
+              <aside
+                className="pic-card front-info"
+                key={project.id}
+                id={project.id}
+                onClick={() => setFlip(!flip)}
+              >
+                <img
+                  src={project.imgSrc}
+                  alt={project.alt}
+                  className="project-picture"
+                />
+                <div className="project-info">
+                  <aside className="project-links">
+                    <a href={project.link} target="_blank" rel="noreferrer">
+                      {project.title}
                     </a>
-                  ) : null}
-                  <span>Created: {project.date}</span>
-                </aside>
-
-                <p>{project.description}</p>
+                    {project.github ? (
+                      <a
+                        href={project.github}
+                        className="github"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <img src={github} alt="github icon" />
+                      </a>
+                    ) : null}
+                  </aside>
+                  <p>Created: {project.date}</p>
+                  <p>{project.description}</p>
+                </div>
+              </aside>
+              <div className="back-info" onClick={() => setFlip(!flip)}>
+                <p>{project.info}</p>
               </div>
-            </aside>
+            </div>
           );
         })}
       </section>
-      <aside className="notes">
+      {/* <aside className="notes">
         <h2>Notes about Projects</h2>
         <ul>
           <li>
@@ -120,7 +132,7 @@ function Projects() {
             availabilities in the organization.
           </li>
         </ul>
-      </aside>
+      </aside> */}
       <Link to="/" className="list-item back">
         Back
       </Link>
@@ -128,4 +140,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Project;
