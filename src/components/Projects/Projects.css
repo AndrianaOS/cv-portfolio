@@ -42,15 +42,15 @@
 .pics {
   display: grid;
   grid-template-areas:
-    "pokedex"
-    "quotes"
-    "chat"
-    "soulful"
-    "hotel"
-    "rap"
-    "baby"
-    "wix"
     "pr"
+    "rap"
+    "quotes"
+    "soulful"
+    "baby"
+    "pokedex"
+    "chat"
+    "hotel"
+    "wix"
     "pm";
   column-gap: 10px;
   row-gap: 20px;
@@ -108,12 +108,12 @@
   .pics {
     grid-template-columns: auto auto;
     justify-content: space-evenly;
-    grid-template-areas:
-      "pokedex quotes"
-      "chat soulful"
-      "rap baby"
-      "wix pr"
-      "hotel pm";
+    grid-template-areas: 
+    "pr rap"
+    "quotes baby"
+    "soulful pokedex"
+    "chat wix"
+    "hotel pm";
   }
 
   .notes ul {
@@ -127,9 +127,10 @@
   .pics {
     grid-template-columns: auto auto auto;
     grid-template-areas:
-      "pokedex quotes chat"
-      "soulful rap baby"
-      "wix pr hotel"
-      "wix pr pm";
+    "pr rap quotes"
+    "baby soulful pokedex"
+    "chat wix hotel"
+    "chat wix pm";
   }
+
 }
