@@ -7,7 +7,7 @@ const buttonNames = [
   {
     id: "projects",
     linkTo: "/projects",
-    name: "Technical Projects",
+    name: "Projects",
   },
   {
     id: "skills",
