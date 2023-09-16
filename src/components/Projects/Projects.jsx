@@ -8,7 +8,7 @@ function Project() {
   const [flip, setFlip] = useState(false);
   return (
     <div>
-      <h1>Experiment Flip card</h1>
+      <h1>Projects</h1>
       <p>(Click cards to view for information)</p>
       <section className="pics card-grid">
         {projects.map((project) => {
