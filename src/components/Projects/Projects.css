@@ -63,7 +63,7 @@
 
 .card {
   position: relative;
-  /* transform: rotateY(var(-rotate-y, 0)) translateY(var(--translate-y, 0)); */
+  transform: rotateY(var(-rotate-y, 0)) translateY(var(--translate-y, 0));
   perspective: 1000px;
   transform-style: preserve-3d;
   transition: 1000ms;
