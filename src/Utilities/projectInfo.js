@@ -32,7 +32,7 @@ const projects = [
     link: "https://video-blog.onrender.com",
     info: "Rap and Blues project was an assessment during my time on the course. This backend follows the CRUD method",
     description:
-      "Frontend, backend and database webpage. A PERN stack was used",
+      "Frontend, backend and database using React, Node and PostgreSQL. A PERN stack was used",
   },
   {
     id: 2,
@@ -55,7 +55,7 @@ const projects = [
     github: "https://github.com/AndrianaOS/Affirmation-page",
     link: "https://soulful-truths.netlify.app",
     info: "Soulful truths was my first team project where I was the project manager as well as being responsible for the UX/UI and the Frontend. This project helped me understand how to interact and work with GitHub in a collaborative way to avoid merge conflicts.",
-    description: "Team Frontend webpage using HTML, CSS and JavaScript.",
+    description: "Team project made on frontend webpage using HTML, CSS and JavaScript.",
   },
   {
     id: 7,
@@ -79,7 +79,7 @@ const projects = [
     link: "https://chat-website-oerg.onrender.com",
     info: "The Hub Chat project makes GET, POST and DELETE requests. This the 1st project I made using more than the GET request",
     description:
-      "Frontend and backend only webpage using React and Node.JS",
+      "Solo project, frontend and backend only webpage using React and Node.JS",
   },
   {
     id: 1,

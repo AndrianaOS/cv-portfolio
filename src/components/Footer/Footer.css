@@ -4,9 +4,8 @@
 }
 
 .linkedin img:hover, .github img:hover {
-  width: 50px;
-  height: 50px;
   opacity: 0.5;
+  cursor: pointer;
 }
 
 .footer {
