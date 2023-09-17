@@ -116,7 +116,7 @@ const projects = [
     link: "https://cyf-andriana-hotel-react.netlify.app",
     info: "The hotel project was the first big React project that had to be completed over 3 weeks.",
     description:
-      "Frontend and backend webpage using React and Node.JS. Large screen version only. This is still in progress.",
+      "Large screen only webpage using React and Node.JS. Mobile version in progress.",
   },
 
   {
@@ -128,7 +128,7 @@ const projects = [
     link: "https://docs.google.com/presentation/d/1B-J1xA9wYSJLsBiyz4t-vCYnYUQ1pFsF/edit?usp=sharing&ouid=106874600262243080126&rtpof=true&sd=true",
     info: "The Visual Calendar was a presentation I created to solve what I saw as a gap in regards to booking meetings and finding out peoples schedules and availabilities in the organization.",
     description:
-      "This is a presentation I created while on the Product Management pathway during my time at the bootcamp",
+      "Presentation created during Product Management identifying a problem and way to rectify it.",
   },
 ];
 
