@@ -46,7 +46,9 @@ function Project() {
                 </div>
               </aside>
               <div className="back-info" onClick={() => setFlip(!flip)}>
+                <h2>{project.title}</h2>
                 <p>{project.info}</p>
+                <a href={project.link} target="_blank" rel="noreferrer" >Demo</a>
               </div>
             </div>
           );
