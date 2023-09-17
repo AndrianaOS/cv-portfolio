@@ -2,8 +2,7 @@
   display: grid;
   grid-template-rows: 180px 200px;
   justify-items: center;
-  margin: 0px 15px;
-  column-gap: 20px;
+  margin: 0px 20px;
   padding: 10px;
   text-align: left;
   border-radius: 16px;
@@ -20,7 +19,7 @@
 }
 
 .personal {
-  margin: 4em 15px 1em;
+  margin: 4em 20px 1em;
 }
 
 .attributes {
@@ -74,7 +73,6 @@
 @media screen and (min-width: 775px) {
   .tech {
     grid-template-columns: 1fr 1fr;
-    column-gap: 25px;
     grid-template-rows: 1fr;
   }
 
@@ -94,10 +92,10 @@
     margin-right: auto;
   }
 
-  .personal ul {
+  /* .personal ul {
     column-count: 2;
     column-fill: balance;
-  }
+  } */
 
   .tech {
     width: 969px;
