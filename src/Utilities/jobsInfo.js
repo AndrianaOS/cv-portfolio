@@ -15,7 +15,7 @@ const jobs = [
     company: "Metro Bank",
     role: "Customer Service Representative",
     duties: [
-      "•	Onboarded new personal and business customers, administered lending services and dealt with queries, customer service duties and ATM balancing.",
+      "Onboarded new personal and business customers, administered lending services and dealt with queries, customer service duties and ATM balancing.",
     ],
   },
   {
