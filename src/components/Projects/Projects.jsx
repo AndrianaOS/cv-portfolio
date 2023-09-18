@@ -13,11 +13,13 @@ function Project() {
       <section className="pics card-grid">
         {projects.map((project) => {
           return (
-            <div className={`card ${flip ? "flip" : ""}`}>
+            <div
+              className={`card ${flip ? "flip" : ""}`}
+              key={project.id}
+              id={project.id}
+            >
               <aside
                 className="pic-card front-info"
-                key={project.id}
-                id={project.id}
                 onClick={() => setFlip(!flip)}
               >
                 <img
@@ -48,7 +50,9 @@ function Project() {
               <div className="back-info" onClick={() => setFlip(!flip)}>
                 <h2>{project.title}</h2>
                 <p>{project.info}</p>
-                <a href={project.link} target="_blank" rel="noreferrer" >Demo</a>
+                <a href={project.link} target="_blank" rel="noreferrer">
+                  Demo
+                </a>
               </div>
             </div>
           );

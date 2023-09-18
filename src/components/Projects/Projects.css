@@ -41,7 +41,7 @@
 
 .pics {
   display: grid;
-  /* grid-template-areas:
+  grid-template-areas:
     "pr"
     "rap"
     "quotes"
@@ -51,11 +51,8 @@
     "pokedex"
     "wix"
     "hotel"
-    "pm"; */
-  /* grid-template-rows: repeat(10, minmax(285px, 485px)); */
-  /* grid-template-rows: repeat(auto-fit, minmax(285px, 485px)); */
+    "pm";
   grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
-  /* grid-template-columns: repeat(auto-fill,  1fr); */
   grid-template-rows: repeat(8, 525px) repeat(2, 350px);
   column-gap: 20px;
   row-gap: 20px;
@@ -69,16 +66,14 @@
   perspective: 1000px;
   transform-style: preserve-3d;
   transition: 1000ms;
+  padding: 10px;
+  border-radius: 16px;
+  background: rgba(238, 224, 224, 0.275);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 .flip {
   transform: rotateY(180deg);
-}
-
-.front-info {
-  /* width: -webkit-fill-available; */
-  min-height: 315px;
-  /* height: -webkit-fill-available; */
 }
 
 .front-info,
@@ -86,16 +81,14 @@
   position: absolute;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  padding: 10px;
-  margin: auto;
-  border-radius: 16px;
-  background: rgba(238, 224, 224, 0.275);
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.front-info {
+      padding: 0 5px
 }
 
 .back-info {
   transform: rotateY(180deg);
-  height: -webkit-fill-available;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -119,54 +112,50 @@
   justify-content: space-evenly;
 }
 
-.notes {
-  text-align: start;
-}
-
-.notes h2 {
-  padding-left: 15px;
-}
-
-.notes ul {
-  padding-right: 15px;
-}
-
-.notes ul li {
-  margin-bottom: 20px;
-  padding: 5px;
-}
 
 @media screen and (min-width: 775px) {
 
   .pics {
     grid-template-rows: repeat(4, 525px) repeat(1, 350px);
     justify-content: space-evenly;
-  }
-
-  .notes ul {
-    column-count: 2;
-    column-gap: 55px;
-    column-fill: balance;
+     grid-template-areas:
+      "pr rap"
+      "quotes baby"
+      "soulful pokedex"
+      "chat wix"
+      "hotel pm";
   }
 }
 
 @media screen and (min-width: 1000px) {
 
   .pics {
-    /* grid-template-columns: auto auto auto; */
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(4, 525px);
-    /* grid-template-areas:
+    grid-template-rows: repeat(2, 525px) repeat(2, 332px);
+     grid-template-areas:
       "pr rap quotes"
       "baby soulful pokedex"
       "chat wix hotel"
-      "chat wix pm"; */
+      "chat wix pm";
+      margin-bottom: 45px;
   }
 
-  /* .pics > .hotel,
-.pics > .pm {
-  grid-area: unset;
-  grid-row: auto;
-} */
+[id="5"] {
+  max-height: 310px;
+   grid-row: 3/4;
+}
+
+ [id="8"], [id="3"] {
+  grid-row: 3/5;
+}
+ [id="8"] .front-info, [id="3"] .front-info {
+  padding-top: 80px;
+}
+
+[id="10"] {
+  max-height: 310px;
+  grid-row: 4/5;
+}
+
 
 }
