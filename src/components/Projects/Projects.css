@@ -84,7 +84,7 @@
 }
 
 .front-info {
-      padding: 0 5px
+      padding: 25px 10px
 }
 
 .back-info {
@@ -149,12 +149,20 @@
   grid-row: 3/5;
 }
  [id="8"] .front-info, [id="3"] .front-info {
-  padding-top: 80px;
+  padding-top: 45px;
+}
+
+ [id="8"] .front-info .project-picture, [id="3"] .front-info .project-picture {
+  width: 250px;
 }
 
 [id="10"] {
   max-height: 310px;
   grid-row: 4/5;
+}
+
+ [id="5"] .front-info, [id="10"] .front-info {
+  padding-top: 25px;
 }
 
 
