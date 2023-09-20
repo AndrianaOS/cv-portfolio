@@ -34,14 +34,11 @@ function Skills() {
             <li className="skills-list">Git</li>
             <li className="skills-list">GitHub</li>
             <li className="skills-list">GitHub Project Boards</li>
-            <li className="skills-list">Virtual Studio Code</li>
             <li className="skills-list">Figma</li>
             <li className="skills-list">Miro</li>
             <li className="skills-list">Slack</li>
-            <li className="skills-list">Netlify</li>
-            <li className="skills-list">Render</li>
+            <li className="skills-list">Bootstrap</li>
             <li className="skills-list">Microsoft Office 365</li>
-            <li className="skills-list">Supabase</li>
           </ul>
         </section>
       </div>
