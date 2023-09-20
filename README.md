@@ -1,3 +1,29 @@
+# Andriana’s Portfolio
+
+This is a website I created to showcase my ability as well as my past projects. It shows projects ranging from frontend only to full stack.
+
+## ⭐️ Features
+
+- Shows a range of technical projects.
+- User can view my skills, education and CV in a PDF format.
+- Responsive on different browsers and screen sizes.
+- Links to GitHub and LinkedIn page available
+
+
+## 🚀 Deployed Website
+<a href="https://cv-portfolio.onrender.com/">Demo</a>
+
+
+## 💻 Screenshot
+
+<img src="https://drive.google.com/uc?export=view&id=10uxxOwbs1utSQH_4t9tSO2qsnZOy4VMF" alt="Image of deployed website" />
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
