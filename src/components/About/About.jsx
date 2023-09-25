@@ -29,7 +29,7 @@ function About() {
           stack projects.
         </li>
         <li>
-          To expand my knowledge and expertise further, I have taken to self study TypeScript so as to help enhance my projects.
+          To expand my knowledge and expertise further, I have taken to self study TypeScript and Python so as to help enhance my projects.
         </li>
         <li>
           After starting the course, I started mentoring others new to coding learn and
