@@ -16,7 +16,7 @@ This is a website I created to showcase my ability as well as my past projects. 
 
 ## 💻 Screenshot
 
-<img src="https://drive.google.com/uc?export=view&id=10uxxOwbs1utSQH_4t9tSO2qsnZOy4VMF" alt="Image of deployed website" />
+<img src="https://drive.google.com/uc?export=view&id=10uxxOwbs1utSQH_4t9tSO2qsnZOy4VMF" alt="Image of deployed website" width="250" height="500" />
 
 ## 🤝 Contributing
 
