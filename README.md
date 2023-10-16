@@ -1,8 +1,8 @@
-# Andriana’s Portfolio
+<h1>Andriana’s Portfolio</h1>
 
 This is a website I created to showcase my ability as well as my past projects. It shows projects ranging from frontend only to full stack.
 
-## ⭐️ Features
+<h2>⭐️ Features</h2>
 
 - Shows a range of technical projects.
 - User can view my skills, education and CV in a PDF format.
@@ -10,22 +10,32 @@ This is a website I created to showcase my ability as well as my past projects. 
 - Links to GitHub and LinkedIn page available
 
 
-## 🚀 Deployed Website
-<a href="https://cv-portfolio.onrender.com/">Demo</a>
+<h2>🚀 Deployed Website</h2>
+<a href="https://cv-portfolio.onrender.com/">View Demo</a>
+||
+<a href="https://github.com/AndrianaOS/cv-portfolio/issues">Report Bug</a>
 
 
-## 💻 Screenshot
+<h2>💻 Screenshot</h2>
 
 <div align="center">
   <img src="https://drive.google.com/uc?export=view&id=10uxxOwbs1utSQH_4t9tSO2qsnZOy4VMF" alt="Image of deployed website" width="250" height="500" />
 </div>
 
+<div>
+  <h2>
+  Built with
+</h2>
+  
+ ![React][React.js]
 
-## 🤝 Contributing
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+</div>
+
+<h2>🤝 Contributing</h2>
 
 Contributions, issues and feature requests are welcome.
-
-
 
 # Getting Started with Create React App
 
