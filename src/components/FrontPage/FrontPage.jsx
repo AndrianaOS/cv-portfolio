@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../FrontPage/FrontPage.css";
 import LinkButtons from "../LinkButtons/LinkButtons";
-import profilePic from "../../Assets/profilepic.jpeg";
+import profilePic from "../../Assets/profilepic.webp";
 import buttonNames from "../../Utilities/buttonInfo";
 
 function FrontPage() {

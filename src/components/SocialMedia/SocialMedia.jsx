@@ -1,5 +1,5 @@
-import github from "../../Assets/github.png";
-import linkedin from "../../Assets/linkedin.png";
+import github from "../../Assets/github.webp";
+import linkedin from "../../Assets/linkedin.webp";
 
 function SocialMedia() {
   return (

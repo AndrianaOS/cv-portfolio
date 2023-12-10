@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../Projects/Projects.css";
 import projects from "../../Utilities/projectInfo";
-import github from "../../Assets/github.png";
+import github from "../../Assets/github.webp";
 
 function Project() {
   const [flippedCardId, setFlippedCardId] = useState(null);

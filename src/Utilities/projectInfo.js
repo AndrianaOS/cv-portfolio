@@ -1,13 +1,13 @@
-import pokedex from "../Assets/pokedex.png";
-import chatApp from "../Assets/chat.png";
-import soulful from "../Assets/soulful.png";
-import quote from "../Assets/quotes.png";
-import hotel from "../Assets/hotel.png";
-import babyNest from "../Assets/baby.png";
-import vlog from "../Assets/rap.png";
-import clone from "../Assets/clone.png";
-import goodPr from "../Assets/pr.png";
-import visualCalendar from "../Assets/Visual-Calendar.png";
+import pokedex from "../Assets/pokedex.webp";
+import chatApp from "../Assets/chat.webp";
+import soulful from "../Assets/soulful.webp";
+import quote from "../Assets/quotes.webp";
+import hotel from "../Assets/hotel.webp";
+import babyNest from "../Assets/baby.webp";
+import vlog from "../Assets/rap.webp";
+import clone from "../Assets/clone.webp";
+import goodPr from "../Assets/pr.webp";
+import visualCalendar from "../Assets/visual-Calendar.webp";
 
 const projects = [
   {
