@@ -39,10 +39,19 @@
   grid-area: pm;
 }
 
+[id="11"] {
+  grid-area: readme;
+}
+
+[id="12"] {
+  grid-area: medic;
+}
+
 .pics {
   display: grid;
   grid-template-areas:
     "pr"
+    "readme"
     "rap"
     "quotes"
     "soulful"
@@ -50,10 +59,11 @@
     "chat"
     "pokedex"
     "wix"
+    "medic"
     "hotel"
     "pm";
   grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
-  grid-template-rows: repeat(8, 525px) repeat(2, 350px);
+  grid-template-rows: repeat(10, 525px) repeat(2, 350px);
   column-gap: 20px;
   row-gap: 20px;
   margin: 15px;
@@ -114,13 +124,14 @@
 
 @media screen and (min-width: 775px) {
   .pics {
-    grid-template-rows: repeat(4, 525px) repeat(1, 350px);
+    grid-template-rows: repeat(5, 525px) repeat(1, 350px);
     justify-content: space-evenly;
     grid-template-areas:
-      "pr rap"
-      "quotes baby"
-      "soulful pokedex"
-      "chat wix"
+      "pr readme"
+      "rap quotes"
+      "baby soulful"
+      "pokedex chat"
+      "wix medic"
       "hotel pm";
   }
 }
@@ -128,41 +139,29 @@
 @media screen and (min-width: 1000px) {
   .pics {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(2, 525px) repeat(2, 332px);
+    grid-template-rows: repeat(3, 525px) repeat(2, 250px);
     grid-template-areas:
-      "pr rap quotes"
-      "baby soulful pokedex"
-      "chat wix hotel"
-      "chat wix pm";
+      "pr readme rap"
+      "quotes baby soulful"
+      "pokedex medic chat"
+      "wix hotel hotel"
+      "wix pm pm";
+    /* "hotel chat wix pm"; */
     margin-bottom: 45px;
-  }
-
-  [id="5"] {
-    max-height: 310px;
-    grid-row: 3/4;
-  }
-
-  [id="8"],
-  [id="3"] {
-    grid-row: 3/5;
-  }
-  [id="8"] .front-info,
-  [id="3"] .front-info {
-    padding-top: 45px;
-  }
-
-  [id="8"] .front-info .project-picture,
-  [id="3"] .front-info .project-picture {
-    width: 250px;
-  }
-
-  [id="10"] {
-    max-height: 310px;
-    grid-row: 4/5;
   }
 
   [id="5"] .front-info,
   [id="10"] .front-info {
-    padding-top: 25px;
+    padding: 30px 40px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
   }
+
+  [id="5"] .front-info .project-picture,
+  [id="10"] .front-info .project-picture {
+    width: 250px;
+  }
+
 }

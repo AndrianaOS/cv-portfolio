@@ -8,6 +8,8 @@ import vlog from "../Assets/rap.webp";
 import clone from "../Assets/clone.webp";
 import goodPr from "../Assets/pr.webp";
 import visualCalendar from "../Assets/visual-Calendar.webp";
+import medicApp from "../Assets/medic-app.webp"
+import readme from "../Assets/readme-hireme2.webp"
 
 const projects = [
   {
@@ -127,6 +129,30 @@ const projects = [
     info: "The Visual Calendar presentation included: A Product Vision Board to indicate the reason why this product will be beneficial; Prioritisation Matrix to find out the important features; Product road map to prioritse implementation of important features and a Delivery plan for time estimation of the features.",
     description:
       "Presentation created during Product Management identifying a gap in the organisation and proposing a solution for said problem.",
+  },
+  {
+    id: 11,
+    imgSrc: readme,
+    alt: "readme hireme",
+    title: "ReadMe HireMe",
+    date: "12/2023",
+    github: "https://github.com/AndrianaOS/graduates-page",
+    link: "https://graduates-page.onrender.com/",
+    info: "ReadMe HireMe is an application that showcases graduates from the CodeYourFuture to potential recruiters. The server code is on a different repository and built using Python the Flask framework. I learnt and implemented the framework within 5 weeks as well as learning how to connect to the database. The frontend is built using React with some Material UI for the form section. This is still a work in progress as the data derived from GitHub takes a longer time to display.",
+    description:
+      "Frontend, backend and database using React, Python and PostgreSQL",
+  },
+  {
+    id: 12,
+    imgSrc: medicApp,
+    alt: "medic app",
+    title: "Doctors Inn",
+    date: "04/2023",
+    github: "https://github.com/Gayle-Thompson-Igwebike/medical-app",
+    link: "https://bwc-medical-app.netlify.app/",
+    info: "Doctors Inn is an application that was created to showcase a range of doctors of different specialties for possible patients to find and message to book an initial appointment to get look at. This is a team project which is currently halted but will be back in progress soon. The server is on a different repository and the database utilises AWS.",
+    description:
+      "Frontend, backend and database using React, Node.JS and PostgreSQL",
   },
 ];
 
