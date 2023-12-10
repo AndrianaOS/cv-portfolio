@@ -21,6 +21,10 @@
   margin: 0 5px;
 }
 
+.edu {
+  border-bottom: 2px solid #d3d3d3;
+}
+
 .date-company {
   display: flex;
   justify-content: flex-start;
