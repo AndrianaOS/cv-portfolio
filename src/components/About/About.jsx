@@ -7,8 +7,8 @@ function About() {
       <h1>About Me</h1>
       <ul className="info">
         <li>
-          I am a full time mum currently enrolled in an intensive software
-          development course that I organize around my child's needs.
+          I am a full time mum currently enrolled and studying a Cybersecurity
+          course that I organize around my child's needs.
         </li>
         <li>
           I have always been fascinated by coding and my journey of learning to
@@ -29,15 +29,16 @@ function About() {
           stack projects.
         </li>
         <li>
-          To expand my knowledge and expertise further, I have taken to self study TypeScript and Python so as to help enhance my projects.
+          To expand my knowledge and expertise further, I have taken to self
+          study Python; which I have been using in my current project.
         </li>
         <li>
-          After starting the course, I started mentoring others new to coding learn and
-          overcome their blockers in mainly HTML and CSS.
+          I am involved in mentoring others new to coding, to help them learn
+          and overcome their blockers in mainly HTML and CSS.
         </li>
         <li>
-          I have a background in the financial sector as well a degree in
-          Forensic Science.
+          I have a working background in the financial and retail sector as well
+          a degree in Forensic Science.
         </li>
       </ul>
       <Link to="/" className="list-item back">
