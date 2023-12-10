@@ -18,8 +18,8 @@ function FrontPage() {
               <li>Coding enthusiast</li>
               <li>Cybersecurity Student</li>
               <li>Forensic Science Graduate</li>
-              <li>Product Management trainee</li>
               <li>Career Switcher</li>
+              <li>Product Management trainee</li>
               <li>Mentor</li>
             </ul>
           </details>
