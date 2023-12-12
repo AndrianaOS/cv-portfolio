@@ -36,7 +36,7 @@ function FrontPage() {
               );
             })}
             <a
-              href="https://drive.google.com/file/d/1_Jy91U1pf_1JKkZo2S4qDTpR215vsxaU/view?usp=sharing"
+              href="https://drive.google.com/file/d/1zSPtcNpFHwaQjRVdCyFEMkGnvEPMpqrd/view?usp=sharing"
               id="view"
               target="_blank"
               rel="noreferrer"
