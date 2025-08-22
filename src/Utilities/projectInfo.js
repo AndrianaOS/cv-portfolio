@@ -10,6 +10,7 @@ import goodPr from "../Assets/pr.webp";
 import visualCalendar from "../Assets/visual-Calendar.webp";
 import medicApp from "../Assets/medic-app.webp"
 import readme from "../Assets/readme-hireme2.webp"
+import tvc from "../Assets/the_village_consult.png"
 
 const projects = [
   {
@@ -153,6 +154,18 @@ const projects = [
     info: "Doctors Inn is an application that was created to showcase a range of doctors of different specialties for possible patients to find and message to book an initial appointment to get look at. This is a team project which is currently halted but will be back in progress soon. The server is on a different repository and the database utilises AWS.",
     description:
       "Frontend, backend and database using React, Node.JS and PostgreSQL",
+  },
+  {
+    id: 13,
+    imgSrc: tvc,
+    alt: "the village consult",
+    title: "The Village Consult",
+    date: "03/2024",
+    github: "https://github.com/AndrianaOS/tvc-webpage",
+    link: "https://thevillageconsult.onrender.com/",
+    info: "The Village Consult is an application that humanizes and bridges the gap between the public and social work.",
+    description:
+      "Static webpage using React.",
   },
 ];
 
