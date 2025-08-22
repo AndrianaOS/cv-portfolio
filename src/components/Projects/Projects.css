@@ -47,6 +47,10 @@
   grid-area: medic;
 }
 
+[id="13"] {
+  grid-area: tvc;
+}
+
 .pics {
   display: grid;
   grid-template-areas:
@@ -60,6 +64,7 @@
     "pokedex"
     "wix"
     "medic"
+    "tvc"
     "hotel"
     "pm";
   grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
@@ -132,6 +137,7 @@
       "baby soulful"
       "pokedex chat"
       "wix medic"
+      "tvc"
       "hotel pm";
   }
 }
@@ -144,8 +150,8 @@
       "pr readme rap"
       "quotes baby soulful"
       "pokedex medic chat"
-      "wix hotel hotel"
-      "wix pm pm";
+      "wix tvc hotel"
+      "wix tvc pm";
     /* "hotel chat wix pm"; */
     margin-bottom: 45px;
   }
