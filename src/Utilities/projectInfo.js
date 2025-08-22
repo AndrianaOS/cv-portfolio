@@ -155,18 +155,18 @@ const projects = [
     description:
       "Frontend, backend and database using React, Node.JS and PostgreSQL",
   },
-  {
-    id: 13,
-    imgSrc: tvc,
-    alt: "the village consult",
-    title: "The Village Consult",
-    date: "03/2024",
-    github: "https://github.com/AndrianaOS/tvc-webpage",
-    link: "https://thevillageconsult.onrender.com/",
-    info: "The Village Consult is an application that humanizes and bridges the gap between the public and social work.",
-    description:
-      "Static webpage using React.",
-  },
+  // {
+  //   id: 13,
+  //   imgSrc: tvc,
+  //   alt: "the village consult",
+  //   title: "The Village Consult",
+  //   date: "03/2024",
+  //   github: "https://github.com/AndrianaOS/tvc-webpage",
+  //   link: "https://thevillageconsult.onrender.com/",
+  //   info: "The Village Consult is an application that humanizes and bridges the gap between the public and social work.",
+  //   description:
+  //     "Static webpage using React.",
+  // },
 ];
 
 export default projects;

@@ -47,9 +47,9 @@
   grid-area: medic;
 }
 
-[id="13"] {
+/* [id="13"] {
   grid-area: tvc;
-}
+} */
 
 .pics {
   display: grid;
@@ -64,7 +64,7 @@
     "pokedex"
     "wix"
     "medic"
-    "tvc"
+    /* "tvc" */
     "hotel"
     "pm";
   grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
@@ -137,7 +137,7 @@
       "baby soulful"
       "pokedex chat"
       "wix medic"
-      "tvc"
+      /* "tvc" */
       "hotel pm";
   }
 }
@@ -150,8 +150,10 @@
       "pr readme rap"
       "quotes baby soulful"
       "pokedex medic chat"
-      "wix tvc hotel"
-      "wix tvc pm";
+      "wix wix hotel"
+      "wix wix pm";
+      /* "wix tvc hotel"
+      "wix tvc pm"; */
     /* "hotel chat wix pm"; */
     margin-bottom: 45px;
   }
